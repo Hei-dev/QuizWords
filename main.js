@@ -14,6 +14,7 @@ function setQuestion(){
     console.log(curQues)
     document.getElementById("ques").innerHTML = qBanks[curQues].Question
     document.getElementById("ans").value = ""
+    document.getElementById("note").innerHTML = ""
 }
 
 //
