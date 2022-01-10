@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chi Quiz:T/F/NG</title>
+        <script src="questions.js"></script>
+        <script src="main.js" defer></script>
+    </head>
+    <body style="font-family: Arial, Helvetica, sans-serif;">
+        <div id="topic"></div>
+        <div id="ques"></div>
+        <div id="ans">
+            <input type="radio" id="t" name="choice" value="T">
+            <label for="t">True</label>
+            <input type="radio" id="f" name="choice" value="F">
+            <label for="f">False</label>
+            <input type="radio" id="ng" name="choice" value="NG">
+            <label for="ng">Not Given</label>
+        </div>
+        <div id="note"></div>
+        <button onclick="checkAns()">Check</button>
+        <button onclick="setQuestion()">New Question</button>
+    </body>
+</html>
